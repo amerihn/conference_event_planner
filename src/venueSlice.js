@@ -1,4 +1,4 @@
-// venueSlice.js
+// Venue Room Selection
 import { createSlice } from "@reduxjs/toolkit";
 
 export const venueSlice = createSlice({
@@ -28,6 +28,7 @@ export const venueSlice = createSlice({
       cost: 900,
       quantity: 0,
     },
+
     {
       img: "https://pixabay.com/images/download/laptops-593296_640.jpg",
       name: "Small Meeting Room (Capacity:5)",
@@ -36,8 +37,7 @@ export const venueSlice = createSlice({
     },
   
   ],
-  reducers: {
-   
+  reducers: {  
     incrementQuantity: (state, action) => {
       const { payload: index } = action;
       if (state[index]) {
