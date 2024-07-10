@@ -14,6 +14,7 @@ function App() {
     <>
       <header className="first_page">
         <div className="main_event">
+          {/* GET STARTED */}
           <div className="first_page_name_btn">
             <h1 className="budget_heading">Conference Expense Planner</h1>
             <p className="budget_sentence"> Plan your next major event with us!</p>
@@ -23,6 +24,7 @@ function App() {
               </button>
             </div>
           </div>
+          {/* TEXT */}
           <div className="aboutus_main">
             <AboutUs />
           </div>
